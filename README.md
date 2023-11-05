@@ -27,7 +27,7 @@ from.models import Football_player,Football_playerAdmin
 admin.site.register(Football_player,Football_playerAdmin)
 
 models.py
-```
+
 from django.db import models
 from django.contrib import admin
 class Football_player (models.Model):
